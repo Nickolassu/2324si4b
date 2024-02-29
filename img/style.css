@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+/* element selector */
+body{
+    background-color: #87A922;
+    font-family: calibri;
+    color: white
+}
+
+/* class selector*/
+.text-primary{
+    color: azure;
+}
+.col{
+    width: 25%;
+    float: left;
+}
+.img-responsive{
+    width: 100%;
+    max-height: 500px;
+}
+.circle{
+    border-radius: 50%;
+}
+.col-50{
+    width: 50%;
+    float: left;
+}
+
