@@ -48,18 +48,4 @@ for (const [index, data] of lsNilai.entries()) {
     console.log(data.nama_mk);
     // tampilkan data mk ke dalam <ul id = "listMK">
     document.getElementById("listMK").innerHTML += `<li>${data.kode_mk} ${data.nama_mk}</li>`;
-
-}
-
-let nama = document.getElementById("Nama");
-let testimoni = document.getElementById("Testimoni");
-let btnsimpan = document.getElementById("btnSimpan");
-let list = document.getElementById("list");
-
-let data = [];
-
-btnsimpan.addEventListener("click", function(){
-    if(localStorage.getItem("testimoni")){
-        data= JSON.parse
-    }
 }

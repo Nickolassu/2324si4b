@@ -12,23 +12,29 @@
     />
   </head>
   <body>
-    <h1>Data Mahasiswa</h1>
-    <ul id="listMhs"></ul>
-
-    <p id="npm"></p>
-    <p id="nama"></p>
-
-    <ul id="listMK"></ul>
-
     <h1>Testimoni</h1>
 
-    <label for="" class="form-label" name="" id="Nama">Nama : </label>
-    <input type="text" class="form-control border border-primary" />
+    <label for="" class="form-label" name="">Nama : </label>
+    <input type="text" class="form-control border border-primary" id="Nama" />
     <br />
-    <label for="" class="form-label" name= "" id="Testimoni">Testimoni : </label>
-    <input type="text" class="form-control border border-primary" />
+    <label for="" class="form-label" name="">Testimoni : </label>
+    <input
+    type="text"
+    class="form-control border border-primary"
+    id="Testimoni"
+    />
     <button class="btn btn-primary" id="btnSimpan">simpan</button>
-
+    <h2>list</h2>
+    <!--<ul id="list"></ul> -->
+    <table class="table">
+        <thead>
+            <tr>
+                <th> Nama </th>
+                <th> Testimoni </th>
+            </tr>
+        </thead>
+        <tbody id="list"></tbody>
+    </table>
     <script src="script.js"></script>
   </body>
 </html>
